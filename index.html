@@ -65,19 +65,22 @@
           </div>
           <div class="col-4">
             <label for="amount" class="form-label">Amount</label>
-            <input
-              class="form-control"
-              type="text"
-              id="amount"
-              name="amount"
-              placeholder="0000"
-            />
+            <div class="d-flex">
+              <b>$</b>
+              <input
+                class="form-control"
+                type="text"
+                id="amount"
+                name="amount"
+                placeholder="0000"
+              />
+            </div>
           </div>
         </div>
         <!-- end first row form -->
 
         <!-- second row form -->
-        <div class="row">
+        <div class="row mt-3">
           <div class="col-6">
             <label for="name" class="form-label">First Name</label>
             <input class="form-control" type="text" id="name" name="name" />
@@ -95,7 +98,7 @@
         <!-- end second row form -->
 
         <!-- third row -->
-        <div class="row">
+        <div class="row mt-3">
           <div class="col-6">
             <label for="city" class="form-label">City</label>
             <input class="form-control" type="text" id="city" name="city" />
